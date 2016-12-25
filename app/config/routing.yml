@@ -1,3 +1,7 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+pls_core:
+    resource: "@PLSCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pls_platform:
+    resource: "@PLSPlatformBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,7 @@
+pls_core_homepage:
+    path:     /
+    defaults: { _controller: PLSCoreBundle:Main:index }
+
+pls_core_rats:
+    path:     /rats
+    defaults: { _controller: PLSCoreBundle:Main:rats }

@@ -1,0 +1,13 @@
+# src/PLS/PlatformBundle/Resources/config/routing.yml
+
+pls_platform_home:
+    path:      /platform
+    defaults: { _controller: PLSPlatformBundle:Advert:index }
+    
+pls_platform_view:
+    path:      /platform/advert/{id}
+    defaults: { _controller: PLSPlatformBundle:Advert:view }
+    
+pls_platform_add:
+    path:      /platform/add
+    defaults: { _controller: PLSPlatformBundle:Advert:add }
